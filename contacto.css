@@ -46,6 +46,7 @@
   border-radius: 5px;
   font-family: 'Roboto', sans-serif;
   padding: 5px;
+  cursor: pointer;
 }
 
 footer{

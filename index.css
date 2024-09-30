@@ -173,13 +173,12 @@ nav li a:hover{
   border: 3px double black;
   margin: auto;
   width: 200px;
-  }
+}
 
   .sec_1 img{
     width: 80%;
     border-radius: 5px;
-    
-  }
+}
 
   .sec_2{
     color: white;
@@ -191,11 +190,12 @@ nav li a:hover{
   width: 200px;
   margin: auto;
  
-  }
+}
 
   .sec_2 img{
     width: 80%;
-  }
+    border-radius: 5px;
+}
 
   .sec_3{
     color: white;
@@ -207,11 +207,12 @@ nav li a:hover{
   width: 200px; 
   margin: auto;
   
-  }
+}
 
   .sec_3 img{
     width: 80%;
-  }
+    border-radius: 5px;
+}
 
   .sec_4{
     color: white;
@@ -223,8 +224,19 @@ nav li a:hover{
   width: 200px;
   margin: auto;
   
-  }
+}
 
   .sec_4 img{
     width: 80%;
-  }
+    border-radius: 5px;
+}
+
+  button{
+    background-color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  padding: 5px;
+  cursor: pointer;
+}
+
