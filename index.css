@@ -240,3 +240,8 @@ nav li a:hover{
   cursor: pointer;
 }
 
+footer{
+    text-align: center;
+    background-color: rgb(103, 1, 199);
+    color: #fff;
+}
