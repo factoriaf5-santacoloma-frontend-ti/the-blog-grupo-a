@@ -138,3 +138,93 @@ nav li a:hover{
 .post p:hover {
     transform: scale(1.1); 
 }
+
+.Contenedor{
+    background: url(img/img.png);
+    width: 100%;
+    height: 120vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+.Contenedor h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.Contenedor p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+
+.sec_1{
+  text-align: center;
+  background-color: rgb(68, 68, 65, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+  border: 3px double black;
+  margin: auto;
+  width: 200px;
+  }
+
+  .sec_1 img{
+    width: 80%;
+    border-radius: 5px;
+    
+  }
+
+  .sec_2{
+    color: white;
+  text-align: center;
+  background-color: rgb(68, 68, 65, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+  border: 3px double black;
+  width: 200px;
+  margin: auto;
+ 
+  }
+
+  .sec_2 img{
+    width: 80%;
+  }
+
+  .sec_3{
+    color: white;
+  text-align: center;
+  background-color: rgb(68, 68, 65, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+  border: 3px double black;
+  width: 200px; 
+  margin: auto;
+  
+  }
+
+  .sec_3 img{
+    width: 80%;
+  }
+
+  .sec_4{
+    color: white;
+  text-align: center;
+  background-color: rgb(68, 68, 65, 0.7);
+  padding: 15px;
+  border-radius: 10px;
+  border: 3px double black;
+  width: 200px;
+  margin: auto;
+  
+  }
+
+  .sec_4 img{
+    width: 80%;
+  }
