@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #fff8;
+    position: fixed;
+}
+
+.cab_nav{
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+    position: fixed;
+    top: 0px;
+}
+
+.cab_nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 50px;
+    color: black;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+.cab_nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.blog{
+    width: 120px;
+    padding: 0px 30px;
+    float: left;
+    position: relative;
+    top: 5%;
+    left: 2%;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    z-index: 1;
+    color: white;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.649);
+}
+
+.logo{
+    width: 80px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    z-index: 10; 
+}
+
+.nave{
+    float: right;
+}
+
+.nave li a{
+    border-radius: 8px;
+    padding: 10px 12px;
+    display: block;
+    margin: 5px;
+}
+
+nav li a:hover{
+    background-color: #5bbef7;
+    color: white;
+}
+
+.nave > li {
+    float: left;
+}
+
+.nave li ul{
+    display: none;
+    text-align: center;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    position: absolute;
+}
+  
+.nave li:hover > ul{
+    display: block;
+}
+
+.nave li {
+    position: relative;
+}
+
+.subnave li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.subnave li a:hover {
+    background-color: #5bbef7;
+    color: white;
+}
+
+.post{
+    background: url(img/img_2.jpg);
+    width: 100%;
+    height: 120vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: black;
+    text-shadow: 3px 3px 8px rgb(255, 253, 253); 
+    text-align: center;
+    padding: 20px;
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.721);
+    border-radius: 10px;
+    letter-spacing: 2px;
+    line-height: 150%;
+}
+
+.post p:hover {
+    transform: scale(1.1); 
+}
